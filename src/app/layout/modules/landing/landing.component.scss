@@ -1,0 +1,48 @@
+@import "src/assets/styles/variables";
+
+.landing_main_jumbotron {
+
+    .row:nth-child(2) {
+        @media screen and (max-width: 576px) {
+            margin: 1rem 0;
+        }
+    }
+
+    .row:last-child {
+        margin-top: 2rem;
+
+        @media screen and (max-width: 576px) {
+            margin-top: 1rem;
+        }
+    }
+
+    .landing_button_group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        button {
+            @media screen and (max-width: 576px) {
+                margin: 0.2rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+}
+
+.landing_secondary_jumbotron_row {
+
+    [class^="col"] > div {
+        color: $plain-white;
+    }
+
+    .landing_secondary_rxjs_jumbotron, .landing_secondary_ang_jumbotron {
+        @media screen and (max-width: 576px) {
+            padding: 1rem;
+        }
+    }
+
+    .landing_secondary_ang_jumbotron {
+        //padding: 4rem;
+    }
+}

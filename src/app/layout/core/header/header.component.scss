@@ -1,0 +1,11 @@
+@import "src/assets/styles/variables";
+
+:host {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    background-color: $primary-black;
+}

@@ -10,6 +10,10 @@ const routes: Routes = [
         path: 'promise',
         loadChildren: () => import('./modules/promise/promise.module').then(m => m.PromiseModule)
     },
+    {
+        path: 'observables',
+        loadChildren: () => import('./modules/observables/observables.module').then(m => m.ObservablesModule)
+    },
 ]
 
 @NgModule({
