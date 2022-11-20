@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@import "src/assets/styles/variables";
+
+body {
+    background-color: $primary-white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.primary-black-bg {
+    background-color: $primary-black !important;
+}
+
+.primary-white-bg {
+    background-color: $primary-white !important;
+}
+
+.plain-white-bg {
+    background-color: $plain-white !important;
+}
+
+.rxjs-primary-color-bg {
+    background-color: $dark-magenta !important;
+}
+
+.rxjs-secondary-color-bg {
+    background-color: $fashion-fuchsia !important;
+}
+
+.ang-primary-color-bg {
+    background-color: $ang-logo !important;
+}
+
+

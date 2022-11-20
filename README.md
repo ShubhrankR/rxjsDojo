@@ -1,5 +1,13 @@
 # RxjsDojo
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+An Interactive app for learning the RxJS.
+
+## Resources
+- [Color Palette Generator](https://coolors.co/)
+
+## App Specs
+- Angular Version: 14.2.9
+
+## How to Run the app
 
 ## Issues faced
 - GitHub auth issue - unable to push changes to remote host
